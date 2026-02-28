@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Verify OTP</title>
+    <style>
+        .otp-box {
+    width: 350px;
+    margin: 100px auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+.otp-box input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.otp-box button {
+    padding: 10px 20px;
+    cursor: pointer;
+}
+    </style>
+</head>
+<body>
+    <div class="otp-box">
+        <h2>Enter OTP</h2>
+        <form method="POST">
+            <input type="text" name="otp" placeholder="Enter 6-digit OTP" required>
+            <button type="submit">Verify</button>
+        </form>
+    </div>
+</body>
+</html>
